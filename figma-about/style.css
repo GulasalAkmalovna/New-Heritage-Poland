@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Baskerville Old Face;
+    src: url("../fonts/BASKVILL.ttf");
+}
+.header{
+    background-image: url("../images/bacground-image.png");
+    background-repeat: no-repeat;
+}
+.header-container{
+    width: 100%;
+    max-width: 1920px;
+    min-height: 599px;
+}
+.header__nav{
+    width: 100%;
+    min-height: 140px;
+    display: flex;
+    justify-content: end;
+    }
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.nav-wrapper{
+    width: 40%;
+    background-color:#fff;
+    padding: 30px 60px;
+
+}
+.menu-title{
+    color: #1B1B1B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 70px;
+}
+.menu-btn{
+    padding: 13px 25px;
+    border-radius: 50px;
+    background-color: transparent;
+
+
+}
+.nav-menu{
+ display: flex;
+ align-items: center;
+}
+.btn{
+    padding: 15px 45px;
+    background-color: red;
+    margin: 0 20px;
+    border: none;
+    
+}
+.btn-link{
+   text-decoration: none;
+   color: #1B1B1B;
+   font-family: "Raleway", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+}
+.second{
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 20px 0;
+}
+.item-link{
+   text-decoration: none;
+   color: #1B1B1B;
+   font-family: "Raleway", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+}
+.header-hero{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.hero-title{
+    font-family: Baskerville Old Face;
+    font-size: 220px;
+    font-weight: 400;
+    color: #fff;
+    padding: 150px 0;
+    
+}
+.about{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+.about-content{
+    max-width: 914px;
+    min-height: 350px;
+    padding: 50px;
+}
+.about-image{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    box-sizing: content-box;
+}
+.about-title{
+    font-family: Baskerville Old Face;
+    font-size: 64px;
+    font-weight: 400;
+    color: #1B1B1B;
+    padding: 0 0 30px;
+    border-bottom: 1px solid gray;
+}
+.about-text{
+   color: #1B1B1B;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+   font-size: 21px;
+   margin-top:30px ;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    gap: 100px;
+}
+.info-content{
+    width: 100%;
+    max-width: 780px;
+    min-height: 200px;
+}
+.extra{
+    height: 300px;
+    background-color: #A1A77C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0;
+
+}
+.extra-content{
+    width: 100%;
+    max-width: 980px;
+    min-height: 308px;
+}
+.extra-text{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.service{
+    padding: 150px 0;
+    text-align: center;
+    
+  
+}
+.service-wrapper{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.service-cards{
+    width: 100%;
+    max-width: 980px;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid black;
+
+   
+}
+.service-title{
+    font-family: Baskerville Old Face;
+    font-size: 64px;
+    font-weight: 400;
+    color: #1B1B1B;
+    
+    
+}
+.card{
+    width: 100%;
+    max-width: 30%;
+    min-height: 200px;
+    padding: 30px 0 0 0;
+    
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+   
+}
+.card-image > img{
+    border-radius: 50%;
+}
+.autor-title{
+    font-family: Baskerville Old Face;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1B1B1B;
+    margin-bottom: 20px;
+}
+.autor-text{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#1B1B1B;
+    margin-bottom: 20px;
+}
+.autor-link{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A1A77C;
+    
+}
+.finish{
+    height: 100vh;
+    background-image: url("../images/finish-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
